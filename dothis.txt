@@ -15,3 +15,8 @@ after
 chmod +x mta-server64
 ./mta-server64
 its work well
+
+start your server to  ./mta-server64
+stop to ctrl+c
+
+only one problem is you cannot uplaod any resource :|
