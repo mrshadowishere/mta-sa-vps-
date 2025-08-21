@@ -10,3 +10,8 @@ goto vps
 
   after 
   rm MTA-Sa.zip
+
+after 
+chmod +x mta-server64
+./mta-server64
+its work well
