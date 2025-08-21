@@ -1,0 +1,12 @@
+goto vps
+
+  sudo su
+  
+  wget "https://download938.mediafire.com/vdy7e2zueqvgCRabdcLOPmZF-vNaIz37SwafxUbNUBDwFHZT_Rpbl0_LWqwGZEjkalUuCFEOx0QwrRnaiCOi9zhd4iSF4CY-OKIJFSd2q_yc4HK3tX2VvXBFBJepaZDaLNs2PnuPKwWsa5Ih1M_yjX23Cwi5C2IXl8CtyGcoHq7PfA/b2zp5iuj86tys5c/MTA-Sa.zip" -O MTA-Sa.zip
+
+  sudo apt update && sudo apt install unzip -y
+
+  unzip MTA-Sa.zip
+
+  after 
+  rm MTA-Sa.zip
